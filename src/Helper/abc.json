@@ -1,0 +1,190 @@
+eventDate:
+{
+    passedDate: addedEventLog.eventDate,
+        iso: addedEventLog.eventDate.toISOString(),
+            localeDate: addedEventLog.eventDate.toLocaleString(),
+                timeStamp: addedEventLog.eventDate.getTime()
+}
+
+{
+    "data": {
+        "error": "EventLog validation failed: eventDate: Cast to date failed for value \"_________________\" (type string) at path \"eventDate\"",
+        "errorObj": {
+
+        }
+    },
+    "message": "EventLog validation failed: eventDate: Cast to date failed for value \"_________________\" (type string) at path \"eventDate\"",
+    "statusCode": 400,
+    "success": false,
+    "isOperationalError": false
+}
+
+{
+"data": {
+    "eventLogsWithPeers":[
+        {
+            "_id": "679882019a3aa2702e6d9387",
+            "eventId": 253,
+            "eventName": "Event Test Whgjghjith Peer",
+            "eventNumber": "Ok",
+            "eventType": "hgdfhgfh",
+            "eventDate": "2056-10-05T13:03:30.000Z",
+            "eventStartTime": "2056-10-05T13:03:30.000Z",
+            "eventEndTime": "2056-10-05T13:03:40.000Z",
+            "createdAt": "2025-01-28T07:06:41.125Z",
+            "updatedAt": "2025-01-28T09:29:32.304Z",
+            "__v": 0,
+            
+            "actualTimesWithPeers": [
+                {
+                "actualTime": {
+                            "_id": "6798a89d577f484d28a33f8c",
+                            "eventLogId": "679882019a3aa2702e6d9387",
+                            "eventId": 253,
+                            "actualStartTime": "2025-01-27T11:10:50.000Z",
+                            "actualEndTime": null,
+                            "createdAt": "2025-01-28T09:51:25.859Z",
+                            "updatedAt": "2025-01-28T09:51:25.859Z",
+                            "__v": 0
+                },
+                "eventInstanceInfo": {
+                            "totalAttendance": 0,
+                            "totalHost": 0,
+                            "totalKickout": 0,
+                            "totalRaisedHand": 0,
+                            "totalThumbsup": 0,
+                            "totalThumbsdown": 0,
+                            "totalClaps": 0,
+                            "totalEchoInstances": 0,
+                            "totalRecordingClicks": 0,
+                            "totalCCClicks": 0,
+                            "totalTranscriptRequests": 0,
+                            "totalSummaryRequests": 0,
+                            "totalActionItemsGenerated": 0,
+                            "totalBirdsEyeViewClick": 0,
+                            "totalMyGroupViewClicked": 0,
+                            "totalScreenShares": 0,
+                            "totalCameraTurnOn": 0,
+                            "totalMicTurnOn": 0,
+                            "totalGroupsCreated": 0,
+                            "totalLocksGroup": 0,
+                            "totalUnlocksGroup": 0,
+                            "totalEventLinksCopied": 0,
+                            "totalMuteAllClickedSwitched": 0,
+                            "totalDisabledAllVideoSwitch": 0,
+                            "totalDisabledAllScrennShareSwitch": 0,
+                            "totalLobbyStatusSwitch": 0,
+                            "totalGroupAllowStatusSwitch": 0,
+                            "totalGrouplockStatusSwitch": 0,
+                            "totalPrivateVideoShareSwitch": 0,
+                            "totalPrivateScreenShareSwitch": 0,
+                            "totalWhiteBoardClicked": 0,
+                            "totalAnnotationBoardClicked": 0,
+                            "totalPollCreated": 0,
+                            "totalAnnouncementModeClicked": 0
+                        },
+                    "peers": [
+                        refrence to peer objcet
+                    ]
+                }
+            ]
+
+        }    
+    ]
+    ,
+    "paginationInfo": {
+    "currentPage": 1,
+    "totalPages": 4,
+    "totalEvents": 38,
+    "limit": 10,
+    "sortOrder": "desc"
+    }
+
+},
+
+"message": "Event logs with peers fetched successfully",
+"statusCode": 200,
+"success": true,
+"isOperationalError": false
+}
+
+{
+"data": {
+    "eventLogs": [
+        {
+            "_id": "679882019a3aa2702e6d9387",
+            "eventId": 253,
+            "eventName": "Event Test Whgjghjith Peer",
+            "eventNumber": "Ok",
+            "eventType": "hgdfhgfh",
+            "eventDate": "2056-10-05T13:03:30.000Z",
+            "eventStartTime": "2056-10-05T13:03:30.000Z",
+            "eventEndTime": "2056-10-05T13:03:40.000Z",
+            "createdAt": "2025-01-28T07:06:41.125Z",
+            "updatedAt": "2025-01-28T09:29:32.304Z",
+            "__v": 0,
+            "actualTimesWithEventInstance": [
+                {
+                    "actualTime": {
+                        "_id": "6798a89d577f484d28a33f8c",
+                        "eventLogId": "679882019a3aa2702e6d9387",
+                        "eventId": 253,
+                        "actualStartTime": "2025-01-27T11:10:50.000Z",
+                        "actualEndTime": null,
+                        "createdAt": "2025-01-28T09:51:25.859Z",
+                        "updatedAt": "2025-01-28T09:51:25.859Z",
+                        "__v": 0
+                    },
+                    "eventInstanceInfo": {
+                        "totalAttendance": 0,
+                        "totalHost": 0,
+                        "totalKickout": 0,
+                        "totalRaisedHand": 0,
+                        "totalThumbsup": 0,
+                        "totalThumbsdown": 0,
+                        "totalClaps": 0,
+                        "totalEchoInstances": 0,
+                        "totalRecordingClicks": 0,
+                        "totalCCClicks": 0,
+                        "totalTranscriptRequests": 0,
+                        "totalSummaryRequests": 0,
+                        "totalActionItemsGenerated": 0,
+                        "totalBirdsEyeViewClick": 0,
+                        "totalMyGroupViewClicked": 0,
+                        "totalScreenShares": 0,
+                        "totalCameraTurnOn": 0,
+                        "totalMicTurnOn": 0,
+                        "totalGroupsCreated": 0,
+                        "totalLocksGroup": 0,
+                        "totalUnlocksGroup": 0,
+                        "totalEventLinksCopied": 0,
+                        "totalMuteAllClickedSwitched": 0,
+                        "totalDisabledAllVideoSwitch": 0,
+                        "totalDisabledAllScrennShareSwitch": 0,
+                        "totalLobbyStatusSwitch": 0,
+                        "totalGroupAllowStatusSwitch": 0,
+                        "totalGrouplockStatusSwitch": 0,
+                        "totalPrivateVideoShareSwitch": 0,
+                        "totalPrivateScreenShareSwitch": 0,
+                        "totalWhiteBoardClicked": 0,
+                        "totalAnnotationBoardClicked": 0,
+                        "totalPollCreated": 0,
+                        "totalAnnouncementModeClicked": 0
+                    }
+                },
+            ]
+        },
+    ],
+    "paginationInfo": {
+            "currentPage": 1,
+            "totalPages": 4,
+            "totalEvents": 38,
+            "limit": 10,
+            "sortOrder": "desc"
+    }
+},
+"message": "Event logs with event instance fetched successfully",
+"statusCode": 201,
+"success": true,
+"isOperationalError": false
+}
