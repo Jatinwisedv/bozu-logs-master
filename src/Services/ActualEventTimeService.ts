@@ -10,7 +10,7 @@ class ActualTimeService {
 
   // Get an ActualTime by its _id
   getActualTimeById(id: string): Promise<IActualTime | null> {
-    return ActualTime.findById(id).exec();
+    return ActualTime.findById(id).exec(); 
   }
 
   // Get all ActualTimes for a specific eventLogId
