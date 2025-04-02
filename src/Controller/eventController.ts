@@ -554,7 +554,7 @@ export class EvenController {
             const { searchField = '', searchText = '', includePeer = false } = req.body;
     
             // List of valid fields that can be searched on (adjust this based on your actual model)
-            const validFields = ['eventName','eventId' ,'description', 'createdAt', 'location','id','_id']; // Add other valid fields here
+            const validFields = ['eventName','eventNumber','eventId' ,'description', 'createdAt', 'location','id','_id']; // Add other valid fields here
     
             // Check if the searchField is valid
             if (!validFields.includes(searchField)) {
