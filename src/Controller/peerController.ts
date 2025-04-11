@@ -154,9 +154,10 @@ export class PeerController {
                 if (eventJoinDate > eventLeftDate) {
                     throw new ApiError("eventLeftDatetime cannot be less than eventJoinDatetime");
                 }
-            } else {
-                throw new ApiError("Invalid dates provided");
-            }
+            } 
+            // else {
+            //     throw new ApiError("Invalid dates provided");
+            // }
 
             if (peerToUpdate.admitedPeers) {
                 peer.admitedPeers = peer.admitedPeers || [];
