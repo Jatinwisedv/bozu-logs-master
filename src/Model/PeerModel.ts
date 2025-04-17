@@ -47,7 +47,7 @@ export interface IPeers extends Document {
     hasSwitchedOnLobbyStatus?: boolean;
     hasSwitchedOnGroupStatus?: boolean;
     hasSwitchedOnGroupLockStatus?: boolean;
-    hasSwitchedOnPrivateVideoShareStaus?: boolean;
+    hasSwitchedOnPrivateVideoShareStatus?: boolean;
     hasSwitchedOnPrivateScreenShareStatus?: boolean;
     hasGotMike?: boolean;
     isPresenter?: boolean;
@@ -79,7 +79,7 @@ export interface IPeers extends Document {
         peerId: string;
         peerName: string;
         date: Date;
-        staus: boolean;
+        status: boolean;
     }>;
     switchBanFromPublicChat?: Array<{
         peerId: string;
@@ -339,7 +339,7 @@ const PeersSchema = new Schema<IPeers>({
         type: Boolean,
         default: false,
     },
-    hasSwitchedOnPrivateVideoShareStaus: {
+    hasSwitchedOnPrivateVideoShareStatus: {
         type: Boolean,
         default: false,
     },
@@ -456,7 +456,7 @@ const PeersSchema = new Schema<IPeers>({
                     required: true,
                 },
                 date: { type: Date, default: new Date() }, 
-                staus: Boolean 
+                status: Boolean 
             },
         ],
         default: [],
@@ -770,7 +770,7 @@ export {PeerLog};
 //     hasSwitchedOnLobbyStatus?: boolean;
 //     hasSwitchedOnGroupStatus?: boolean;
 //     hasSwitchedOnGroupLockStatus?: boolean;
-//     hasSwitchedOnPrivateVideoShareStaus?: boolean;
+//     hasSwitchedOnPrivateVideoShareStatus?: boolean;
 //     hasSwitchedOnPrivateScreenShareStatus?: boolean;
 
 
@@ -842,7 +842,7 @@ export {PeerLog};
 //         hasSwitchedOnLobbyStatus: { type: Boolean, default: true },
 //         hasSwitchedOnGroupStatus: { type: Boolean, default: true },
 //         hasSwitchedOnGroupLockStatus: { type: Boolean, default: true },
-//         hasSwitchedOnPrivateVideoShareStaus: { type: Boolean, default: true },
+//         hasSwitchedOnPrivateVideoShareStatus: { type: Boolean, default: true },
 //         hasSwitchedOnPrivateScreenShareStatus: { type: Boolean, default: true },
 //         hasGotMike: { type: Boolean, default: true },
 //         isPresenter: { type: Boolean, default: true },
@@ -962,7 +962,7 @@ export {PeerLog};
 //     hasSwitchedOnLobbyStatus?:boolean;
 //     hasSwitchedOnGroupStatus?:boolean;
 //     hasSwitchedOnGroupLockStatus?:boolean;
-//     hasSwitchedOnPrivateVideoShareStaus?:boolean;
+//     hasSwitchedOnPrivateVideoShareStatus?:boolean;
 //     hasSwitchedOnPrivateScreenShareStatus:boolean;
 
    

@@ -504,7 +504,7 @@ const options: any = {
                         hasSwitchedOnLobbyStatus: { type: "boolean", example: true },
                         hasSwitchedOnGroupStatus: { type: "boolean", example: true },
                         hasSwitchedOnGroupLockStatus: { type: "boolean", example: false },
-                        hasSwitchedOnPrivateVideoShareStaus: { type: "boolean", example: true },
+                        hasSwitchedOnPrivateVideoShareStatus: { type: "boolean", example: true },
                         hasSwitchedOnPrivateScreenShareStatus: { type: "boolean", example: false },
                         hasGotMike: { type: "boolean", example: true },
                         isPresenter: { type: "boolean", example: true },
@@ -563,7 +563,7 @@ const options: any = {
                                     peerId: { type: "string", example: "peer101" },
                                     peerName: { type: "string", example: "Charlie Green" },
                                     date: { type: "string", format: "date-time", example: "2025-01-24T10:15:00.000Z" },
-                                    staus: { type: "boolean", example: true },
+                                    status: { type: "boolean", example: true },
                                     _id: { type: "string", example: "6799de118974e7df4b7a83d5" },
                                     id: { type: "string", example: "6799de118974e7df4b7a83d5" }
                                 }
@@ -774,7 +774,7 @@ const options: any = {
                         hasSwitchedOnLobbyStatus: { type: "boolean", example: true },
                         hasSwitchedOnGroupStatus: { type: "boolean", example: true },
                         hasSwitchedOnGroupLockStatus: { type: "boolean", example: false },
-                        hasSwitchedOnPrivateVideoShareStaus: { type: "boolean", example: true },
+                        hasSwitchedOnPrivateVideoShareStatus: { type: "boolean", example: true },
                         hasSwitchedOnPrivateScreenShareStatus: { type: "boolean", example: false },
                         hasGotMike: { type: "boolean", example: true },
                         isPresenter: { type: "boolean", example: true },
@@ -833,7 +833,7 @@ const options: any = {
                                     peerId: { type: "string", example: "peer101" },
                                     peerName: { type: "string", example: "Charlie Green" },
                                     date: { type: "string", format: "date-time", example: "2025-01-24T10:15:00.000Z" },
-                                    staus: { type: "boolean", example: true },
+                                    status: { type: "boolean", example: true },
                                     _id: { type: "string", example: "6799de118974e7df4b7a83d5" },
                                     id: { type: "string", example: "6799de118974e7df4b7a83d5" }
                                 }

@@ -104,7 +104,7 @@
 //                     totalLobbyStatusSwitch: { $sum: { $cond: ['$hasSwitchedOnLobbyStatus', 1, 0] } },
 //                     totalGroupAllowStatusSwitch: { $sum: { $cond: ['$hasSwitchedOnGroupStatus', 1, 0] } },
 //                     totalGrouplockStatusSwitch: { $sum: { $cond: ['$hasSwitchedOnGroupLockStatus', 1, 0] } },
-//                     totalPrivateVideoShareSwitch: { $sum: { $cond: ['$hasSwitchedOnPrivateVideoShareStaus', 1, 0] } },
+//                     totalPrivateVideoShareSwitch: { $sum: { $cond: ['$hasSwitchedOnPrivateVideoShareStatus', 1, 0] } },
 //                     totalPrivateScreenShareSwitch: { $sum: { $cond: ['$hasSwitchedOnPrivateScreenShareStatus', 1, 0] } },
 //                     totalWhiteBoardClicked: { $sum: { $cond: ['$hasClickedWhiteBoard', 1, 0] } },
 //                     totalAnnotationBoardClicked: { $sum: { $cond: ['$hasClickedAnnotationBoard', 1, 0] } },

@@ -102,7 +102,7 @@ const calculateEventInstanceInfo = (peers: IPeers[]): EventInstanceInfo => {
         if (peer.hasSwitchedOnLobbyStatus) eventInstanceInfo.totalLobbyStatusSwitch++;
         if (peer.hasSwitchedOnGroupStatus) eventInstanceInfo.totalGroupAllowStatusSwitch++;
         if (peer.hasSwitchedOnGroupLockStatus) eventInstanceInfo.totalGrouplockStatusSwitch++;
-        if (peer.hasSwitchedOnPrivateVideoShareStaus) eventInstanceInfo.totalPrivateVideoShareSwitch++;
+        if (peer.hasSwitchedOnPrivateVideoShareStatus) eventInstanceInfo.totalPrivateVideoShareSwitch++;
         if (peer.hasSwitchedOnPrivateScreenShareStatus) eventInstanceInfo.totalPrivateScreenShareSwitch++;
         if (peer.hasClickedWhiteBoard) eventInstanceInfo.totalWhiteBoardClicked++;
         if (peer.hasClickedAnnotationBoard) eventInstanceInfo.totalAnnotationBoardClicked++;

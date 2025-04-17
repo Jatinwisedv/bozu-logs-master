@@ -301,7 +301,7 @@ export interface IPeers2 extends Document {
     peerId: string;
     peerName: string;
     date: Date;
-    staus: boolean;
+    status: boolean;
   }>;
 
   switchBanFromPublicChat: Array<{

@@ -285,7 +285,7 @@ export function validatePeer(peerToAdd: any, checkRequired: boolean = false): vo
         "hasSwitchedOnLobbyStatus",
         "hasSwitchedOnGroupStatus",
         "hasSwitchedOnGroupLockStatus",
-        "hasSwitchedOnPrivateVideoShareStaus",
+        "hasSwitchedOnPrivateVideoShareStatus",
         "hasSwitchedOnPrivateScreenShareStatus",
         "hasGotMike",
         "isPresenter",
@@ -350,7 +350,7 @@ export function updatePeer(peer: any, peerToUpdate: any): void {
     if (peerToUpdate.isp !== undefined) peer.isp = peerToUpdate.isp;
     
     // Boolean Flags
-    ["hasCopiedInvationLink", "hasClickedBirdsEyeView", "hasClickedlMyGroupView", "hasClickedEchoDetection", "hasClickedWhiteBoard", "hasClickedAnnotationBoard", "hasCreatedPoll", "hasSwitchedOnMike", "hasSwitchedOnCamera", "hasSelectedVirtualBackground", "hasClikedOnlyGroupCanSeeVideo", "hasSwitchedOnScreenShare", "hasClikedOnlyGroupCanSeeScreenShare", "hasRaisedHand", "hasThumbsUp", "hasThumbsDown", "hasClaped", "hasSwitchedOnAnnouncement", "hasStartedCc", "hasRequestedTranscript", "hasRequestedSummary", "hasGeneratedActionItems", "hasStartedRecording", "hasSwitchedOnMuteAll", "hasSwitchedOnDisabledAllVideos", "hasSwitchedOnLobbyStatus", "hasSwitchedOnGroupStatus", "hasSwitchedOnGroupLockStatus", "hasSwitchedOnPrivateVideoShareStaus", "hasSwitchedOnPrivateScreenShareStatus", "hasGotMike", "isPresenter", "isTriviaHost", "isStagePeer", "isBanFromPublicChat", "isKickedout", "usedShowOnlyMyGroupVideo", "hasSwitchedListenAll", "hasSwithcedHostOnlyListen", "isMainHost", "hasExportedAttendanceList"].forEach(flag => {
+    ["hasCopiedInvationLink", "hasClickedBirdsEyeView", "hasClickedlMyGroupView", "hasClickedEchoDetection", "hasClickedWhiteBoard", "hasClickedAnnotationBoard", "hasCreatedPoll", "hasSwitchedOnMike", "hasSwitchedOnCamera", "hasSelectedVirtualBackground", "hasClikedOnlyGroupCanSeeVideo", "hasSwitchedOnScreenShare", "hasClikedOnlyGroupCanSeeScreenShare", "hasRaisedHand", "hasThumbsUp", "hasThumbsDown", "hasClaped", "hasSwitchedOnAnnouncement", "hasStartedCc", "hasRequestedTranscript", "hasRequestedSummary", "hasGeneratedActionItems", "hasStartedRecording", "hasSwitchedOnMuteAll", "hasSwitchedOnDisabledAllVideos", "hasSwitchedOnLobbyStatus", "hasSwitchedOnGroupStatus", "hasSwitchedOnGroupLockStatus", "hasSwitchedOnPrivateVideoShareStatus", "hasSwitchedOnPrivateScreenShareStatus", "hasGotMike", "isPresenter", "isTriviaHost", "isStagePeer", "isBanFromPublicChat", "isKickedout", "usedShowOnlyMyGroupVideo", "hasSwitchedListenAll", "hasSwithcedHostOnlyListen", "isMainHost", "hasExportedAttendanceList"].forEach(flag => {
         if (peerToUpdate[flag] !== undefined) peer[flag] = peerToUpdate[flag];
     });
 

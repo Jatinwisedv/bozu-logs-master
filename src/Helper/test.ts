@@ -80,7 +80,7 @@
                                 "hasSwitchedOnLobbyStatus": false,
                                 "hasSwitchedOnGroupStatus": false,
                                 "hasSwitchedOnGroupLockStatus": false,
-                                "hasSwitchedOnPrivateVideoShareStaus": false,
+                                "hasSwitchedOnPrivateVideoShareStatus": false,
                                 "hasSwitchedOnPrivateScreenShareStatus": false,
                                 "hasGotMike": false,
                                 "isPresenter": false,
@@ -153,7 +153,7 @@
                                 "hasSwitchedOnLobbyStatus": false,
                                 "hasSwitchedOnGroupStatus": false,
                                 "hasSwitchedOnGroupLockStatus": false,
-                                "hasSwitchedOnPrivateVideoShareStaus": false,
+                                "hasSwitchedOnPrivateVideoShareStatus": false,
                                 "hasSwitchedOnPrivateScreenShareStatus": false,
                                 "hasGotMike": false,
                                 "isPresenter": false,
@@ -206,7 +206,7 @@
                                         "peerId": "peer101",
                                         "peerName": "Charlie Green",
                                         "date": "2025-01-24T10:15:00.000Z",
-                                        "staus": true,
+                                        "status": true,
                                         "_id": "6793918a46eb13e4eeedfbc2"
                                     }
                                 ],
@@ -336,7 +336,7 @@
                                 "hasSwitchedOnLobbyStatus": false,
                                 "hasSwitchedOnGroupStatus": false,
                                 "hasSwitchedOnGroupLockStatus": false,
-                                "hasSwitchedOnPrivateVideoShareStaus": false,
+                                "hasSwitchedOnPrivateVideoShareStatus": false,
                                 "hasSwitchedOnPrivateScreenShareStatus": false,
                                 "hasGotMike": false,
                                 "isPresenter": false,
@@ -407,7 +407,7 @@
                                         "peerId": "peer101",
                                         "peerName": "Charlie Green",
                                         "date": "2025-01-24T10:15:00.000Z",
-                                        "staus": true,
+                                        "status": true,
                                         "_id": "6793919746eb13e4eeedfbf1"
                                     },
                                     {
@@ -607,7 +607,7 @@
                                 "hasSwitchedOnLobbyStatus": false,
                                 "hasSwitchedOnGroupStatus": false,
                                 "hasSwitchedOnGroupLockStatus": false,
-                                "hasSwitchedOnPrivateVideoShareStaus": false,
+                                "hasSwitchedOnPrivateVideoShareStatus": false,
                                 "hasSwitchedOnPrivateScreenShareStatus": false,
                                 "hasGotMike": false,
                                 "isPresenter": false,
@@ -690,7 +690,7 @@
                                         "peerId": "peer101",
                                         "peerName": "Charlie Green",
                                         "date": "2025-01-24T10:15:00.000Z",
-                                        "staus": true,
+                                        "status": true,
                                         "_id": "6793946a46eb13e4eeedfc8b"
                                     },
                                     {
@@ -890,7 +890,7 @@
                                 "hasSwitchedOnLobbyStatus": false,
                                 "hasSwitchedOnGroupStatus": false,
                                 "hasSwitchedOnGroupLockStatus": false,
-                                "hasSwitchedOnPrivateVideoShareStaus": false,
+                                "hasSwitchedOnPrivateVideoShareStatus": false,
                                 "hasSwitchedOnPrivateScreenShareStatus": false,
                                 "hasGotMike": false,
                                 "isPresenter": false,
@@ -943,7 +943,7 @@
                                         "peerId": "peer101",
                                         "peerName": "Charlie Green",
                                         "date": "2025-01-24T10:15:00.000Z",
-                                        "staus": true,
+                                        "status": true,
                                         "_id": "6797303b8645fc5a6c6f7e67"
                                     }
                                 ],
